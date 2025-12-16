@@ -1,0 +1,165 @@
+
+
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <id>https://www.samurantech.com/</id>
+  <title>Samuran Tech - Sysadmin Blog</title>
+  <subtitle>Un blog sobre las cosas que he ido aprendiendo en mis pocos años de sysadmin y las cosas que iré aprendiendo.</subtitle>
+  <updated>2025-12-16T21:07:09+01:00</updated>
+  <author>
+    <name>Samuran</name>
+    <uri>https://www.samurantech.com/</uri>
+  </author>
+  <link rel="self" type="application/atom+xml" href="https://www.samurantech.com/feed.xml"/>
+  <link rel="alternate" type="text/html" hreflang="es-ES"
+    href="https://www.samurantech.com/"/>
+  <generator uri="https://jekyllrb.com/" version="4.4.1">Jekyll</generator>
+  <rights> © 2025 Samuran </rights>
+  <icon>/assets/img/favicons/favicon.ico</icon>
+  <logo>/assets/img/favicons/favicon-96x96.png</logo>
+
+
+  
+  <entry>
+    <title>Desactivar error multipath Ubuntu</title>
+    <link href="https://www.samurantech.com/posts/desactivar-error-multipath/" rel="alternate" type="text/html" title="Desactivar error multipath Ubuntu" />
+    <published>2024-04-18T10:00:00+02:00</published>
+  
+    <updated>2024-04-18T10:00:00+02:00</updated>
+  
+    <id>https://www.samurantech.com/posts/desactivar-error-multipath/</id>
+    <content type="text/html" src="https://www.samurantech.com/posts/desactivar-error-multipath/" />
+    <author>
+      <name>Samuran</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="ubuntu" />
+    
+  
+
+  <summary>Trabajando con algún servidor Ubuntu, ya sea la versión 20.04 o 22.04, me he fijado que en los logs suele dar un error relacionado con multipath.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Agregar disco a LVM</title>
+    <link href="https://www.samurantech.com/posts/agregar-disco-lvm/" rel="alternate" type="text/html" title="Agregar disco a LVM" />
+    <published>2024-04-01T10:00:00+02:00</published>
+  
+    <updated>2024-04-01T10:00:00+02:00</updated>
+  
+    <id>https://www.samurantech.com/posts/agregar-disco-lvm/</id>
+    <content type="text/html" src="https://www.samurantech.com/posts/agregar-disco-lvm/" />
+    <author>
+      <name>Samuran</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="lvm" />
+    
+  
+
+  <summary>En posts anteriores (ha pasado tiempo desde entonces, debería darle una vuelta y actualizarlo) vimos cómo ampliar un disco LVM que ya teníamos.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Eliminar backups fallidos de Barman</title>
+    <link href="https://www.samurantech.com/posts/eliminar-backup-fallidos-barman/" rel="alternate" type="text/html" title="Eliminar backups fallidos de Barman" />
+    <published>2024-03-14T09:00:00+01:00</published>
+  
+    <updated>2024-03-14T09:00:00+01:00</updated>
+  
+    <id>https://www.samurantech.com/posts/eliminar-backup-fallidos-barman/</id>
+    <content type="text/html" src="https://www.samurantech.com/posts/eliminar-backup-fallidos-barman/" />
+    <author>
+      <name>Samuran</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="ubuntu" />
+    
+    <category term="postgres" />
+    
+    <category term="backup" />
+    
+  
+
+  <summary>Por si algún casual fallasen varios backups de seguidos, en vez de eliminarlos uno a uno podemos hacer lo siguiente para eliminar todos.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Restaurar backup de Barman</title>
+    <link href="https://www.samurantech.com/posts/restaurar-backup-barman/" rel="alternate" type="text/html" title="Restaurar backup de Barman" />
+    <published>2024-02-12T09:00:00+01:00</published>
+  
+    <updated>2024-02-12T09:00:00+01:00</updated>
+  
+    <id>https://www.samurantech.com/posts/restaurar-backup-barman/</id>
+    <content type="text/html" src="https://www.samurantech.com/posts/restaurar-backup-barman/" />
+    <author>
+      <name>Samuran</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="ubuntu" />
+    
+    <category term="postgres" />
+    
+    <category term="backup" />
+    
+  
+
+  <summary>En anteriores posts, instalamos y configuramos Barman para que se encargase de las copias de seguridad de nuestras BBDD montadas sobre PostgreSQL.</summary>
+
+  </entry>
+
+  
+  <entry>
+    <title>Crear una política de contraseñas en FreeIPA</title>
+    <link href="https://www.samurantech.com/posts/crear-politica-pass-freeipa/" rel="alternate" type="text/html" title="Crear una política de contraseñas en FreeIPA" />
+    <published>2024-02-09T09:00:00+01:00</published>
+  
+    <updated>2024-02-09T09:00:00+01:00</updated>
+  
+    <id>https://www.samurantech.com/posts/crear-politica-pass-freeipa/</id>
+    <content type="text/html" src="https://www.samurantech.com/posts/crear-politica-pass-freeipa/" />
+    <author>
+      <name>Samuran</name>
+    </author>
+
+  
+    
+    <category term="linux" />
+    
+    <category term="ubuntu" />
+    
+    <category term="rocky" />
+    
+    <category term="freeipa" />
+    
+  
+
+  <summary>A la hora de crear usuarios que usaremos para servicios en nuestro FreeIPA, nos interesa que la contraseña de estos no cambien.</summary>
+
+  </entry>
+
+</feed>
+
+
